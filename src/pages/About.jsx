@@ -13,7 +13,6 @@ function About() {
             <div className="max-w-xl space-y-4">
                 <h1 className="text-2xl decoration-sky-300">Code, creativity, and a constant urge to improve things.</h1>
                 <p className="text-lg">
-                    {/* I’m a passionate developer who loves crafting clean UI and building full-stack applications with modern web technologies. */}
                     I’m <Link className="duration-300 cursor:pointer transition-all hover:text-3xl hover:text-cyan-800 font-extrabold" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>Ronit Raj Bairwa</Link >, an MCA graduate from <span className="font-extrabold">NIT Trichy</span>, focused on building clean, scalable web applications, with a growing interest in AI/ML and thoughtful system design.
                 </p>
                 <Link to="/resume" className="mt-4 px-6 py-2 text-zinc-900 rounded-lg hover:bg-amber-300 border-1 transition-all duration-300">
